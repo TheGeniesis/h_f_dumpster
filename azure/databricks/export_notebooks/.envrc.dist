@@ -1,0 +1,5 @@
+# Set your Databricks token
+export DATABRICKS_TOKEN=$(az account get-access-token --resource <resource> --query "accessToken" --output tsv)
+
+# Set the Databricks workspace URL
+export DATABRICKS_HOST=<databricks-host>

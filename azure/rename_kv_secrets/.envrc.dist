@@ -1,0 +1,4 @@
+export AZURE_KEY_VAULT_NAME=<my-kv>
+export PREFIX="db-password"
+export FIND="db-password"
+export REPLACE_TO="new-db-password"

@@ -1,0 +1,18 @@
+# Gitlab variables to get commit list
+export GITLAB_ACCESS_TOKEN=""
+export CI_API_V4_URL=""
+export CI_PROJECT_ID=""
+export CI_COMMIT_TAG=""
+
+# tag to push after promotion
+export NEW_TAG_NAME=""
+# image names to be promoted
+export IMAGES_LIST=""
+# docker registry to pull image
+export PREV_CONTAINER_REGISTRY=""
+# docker registry to be push image
+export CONTAINER_REGISTRY=""
+# original env
+export PREV_APP_ENV=""
+# env to be pushed
+export APP_ENV=""

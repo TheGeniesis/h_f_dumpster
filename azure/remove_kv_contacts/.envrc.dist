@@ -1,0 +1,1 @@
+export AZURE_KEY_VAULT_NAME=<my-kv>
