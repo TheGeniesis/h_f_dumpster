@@ -1,0 +1,4 @@
+# e.g. export GIT_URL=[git@gitlab.com:<port>]:<group1>/<group2>
+export GIT_URL=<path_to_destination_repo>
+# Must be the same as directory name
+export GIT_REPO_NAME=<repo_name>
