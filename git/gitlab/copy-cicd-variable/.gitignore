@@ -1,0 +1,6 @@
+gin.log
+.env
+
+
+report*.txt
+build/

@@ -1,0 +1,21 @@
+version: 3
+
+tasks:
+  default:
+    cmds:
+      - task -l
+
+  setup:
+    desc: First setup for the project
+    cmds:
+      - cp .env.dist .env
+
+  execute:
+    desc: Execute the project
+    cmds:
+      - export $(echo $(cat .env | sed 's/#.*//g'| xargs) | envsubst) && go build -o build/exec ./... && build/exec -old={{.OLD}} -new={{.NEW}}
+
+  format:
+    desc: Execute staticcheck
+    cmds:
+      - staticcheck ./...
