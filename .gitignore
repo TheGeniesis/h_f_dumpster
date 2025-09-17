@@ -1,3 +1,4 @@
+.DS_store
 .envrc
 .env
 art.prom.env

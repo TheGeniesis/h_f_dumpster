@@ -1,0 +1,6 @@
+
+export GITLAB_HOST="https://<host>/"
+export GROUP_ID="<id>"
+export ACCESS_TOKEN="glpat-<pat>"
+export SEARCH_VALUE="<value_to_find"
+.DS_Store
